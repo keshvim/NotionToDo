@@ -1,0 +1,8 @@
+<script>
+  const getDataFromBackend = async () => {
+    const rest = await fetch("http://localhost:3000/hello")
+    console.log(rest)
+    return rest;
+  }
+  getDataFromBackend()
+</script>
